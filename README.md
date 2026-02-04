@@ -1,6 +1,7 @@
 ## Hi there 👋
 <!-- imhalid -->
-
+<!-- LuciNyan -->
+![Github Card Generator](https://pixel-profile.vercel.app/api/github-stats?username=ionik0&theme=fuji&bg-dark&pixelate_avatar=false)
 <!-- brunobritodev -->
 <picture>
   <source
