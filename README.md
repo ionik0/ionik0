@@ -1,18 +1,37 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=210&section=header&text=Hey,%20I'm%20ionik0&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Competitive%20Programmer%20%7C%20Developer%20%7C%20Problem%20Solver&descAlignY=58&descSize=18" width="100%" alt="header" />
+```
+ _____ _____ _   _ _____ _   _______
+|_   _|  _  | \ | |_   _| | / /  _  |
+  | | | | | |  \| | | | | |/ /| |/' |
+  | | | | | | . ` | | | |    \|  /| |
+ _| |_\ \_/ / |\  |_| |_| |\  \ |_/ /
+ \___/ \___/\_| \_/\___/\_| \_/\___/
+```
 
-<a href="https://github.com/ionik0">
-  <img src="https://github.com/ionik0.png" width="150" height="150" style="border-radius:50%;border:3px solid #6e40c9;" alt="ionik0 avatar" />
-</a>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=VT323&weight=500&size=26&duration=2200&pause=700&color=39FF14&background=000000&center=true&vCenter=true&width=600&height=40&lines=%3E+INSERT+COIN+TO+CONTINUE...;%3E+LOADING+PLAYER%3A+ionik0_;%3E+CLASS%3A+Competitive+Programmer;%3E+STATUS%3A+Online+and+debugging_)](https://git.io/typing-svg)
 
-<br />
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2500&pause=800&color=8A2BE2&center=true&vCenter=true&width=560&lines=Solving+one+problem+at+a+time...;Grinding+LeetCode+%2B+Codeforces+%2B+AtCoder;Building+cool+things+with+code;Welcome+to+my+GitHub+%F0%9F%91%8B)](https://git.io/typing-svg)
+<img src="https://img.shields.io/badge/●-000000?style=flat-square&labelColor=FF0000" height="14"/><img src="https://img.shields.io/badge/●-000000?style=flat-square&labelColor=FFB8FF" height="14"/><img src="https://img.shields.io/badge/●-000000?style=flat-square&labelColor=00FFFF" height="14"/><img src="https://img.shields.io/badge/●-000000?style=flat-square&labelColor=FFB852" height="14"/><img src="https://img.shields.io/badge/●-000000?style=flat-square&labelColor=FFFF00" height="14"/>
 
 </div>
 
-<br />
+<br/>
+
+<div align="center">
+
+<img src="https://github.com/ionik0.png" width="140" height="140" style="border:4px solid #39FF14;image-rendering:pixelated;box-shadow:6px 6px 0px #000;" alt="ionik0 avatar"/>
+
+<img src="https://img.shields.io/badge/PLAYER_ONE-ionik0-FFFF00?style=for-the-badge&labelColor=000000" alt="player one"/>
+<img src="https://img.shields.io/badge/LIVES-%E2%99%A5%20%E2%99%A5%20%E2%99%A5-FF0000?style=for-the-badge&labelColor=000000" alt="lives"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://img.shields.io/badge/LEVEL_1-CONTRIBUTIONS-FFFF00?style=for-the-badge&labelColor=000000" />
+</div>
+<br/>
 
 <picture>
   <source
@@ -29,11 +48,22 @@
   />
 </picture>
 
-<br />
+<div align="center">
+<sub>🐾 meanwhile, my pet is out grinding commits too</sub>
+<br/>
+<img src="https://render.gitanimals.org/lines/ionik0" alt="gitanimals" />
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://img.shields.io/badge/LEVEL_2-BOSS_STATS-FF0000?style=for-the-badge&labelColor=000000" />
+</div>
+<br/>
 
 <div align="center">
 
-[![Leetcode Stats](https://leetcard.jacoblin.cool/ionik_0?ext=heatmap)](https://leetcode.com/ionik_0)
+[![Leetcode Stats](https://leetcard.jacoblin.cool/ionik_0?theme=dark&ext=heatmap)](https://leetcode.com/ionik_0)
 [![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=ionik_0)](https://codeforces.com/profile/ionik_0)
 
 </div>
@@ -53,39 +83,21 @@
   </tr>
 </table>
 
-<br />
+<br/>
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=ionik0&show_icons=true&theme=radical&hide_border=true&count_private=true" height="165" alt="github stats" />
-<img src="https://streak-stats.demolab.com?user=ionik0&theme=radical&hide_border=true" height="165" alt="streak stats" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ionik0&layout=compact&theme=radical&hide_border=true" height="165" alt="top languages" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=ionik0&theme=radical&no-frame=true&row=1&margin-w=8&column=7" alt="trophies" />
-
+<img src="https://img.shields.io/badge/EXTRA_LIVES-CONTACT-00FFFF?style=for-the-badge&labelColor=000000" />
 </div>
+<br/>
 
 <div align="center">
 
-### 🛠️ Tech Stack
-
-<img src="https://skillicons.dev/icons?i=cpp,python,java,c,git,github,linux,vscode" alt="tech stack" />
-
-</div>
-
-<br />
-
-<div align="center">
-
-### 📫 Let's Connect
-
-<a href="mailto:npxnikhilkumar@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/nikhil-kumar-124b50362"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:npxnikhilkumar@gmail.com"><img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=EA4335" /></a>
+<a href="https://www.linkedin.com/in/nikhil-kumar-124b50362"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=0A66C2" /></a>
 
 <sub>Got a doubt, a bug to squash together, or just want to game? Ping me, I don't bite 😉</sub>
 
-<br /><br />
+<br/><br/>
 
 <a href="https://github.com/ionik0/ionik0/issues">
   <img src="https://github.com/fnky/fnky/raw/fnky/img/guestbook.gif" alt="Guest book" width="600" />
@@ -93,8 +105,12 @@
 
 <p>Write something nice in my guest book 📖</p>
 
-<br />
+<br/>
 
-<img src="https://komarev.com/ghpvc/?username=ionik0&style=for-the-badge&color=8A2BE2&label=PROFILE+VIEWS" alt="profile views" />
+```
+GAME OVER — INSERT COIN TO CONTINUE
+```
+
+<img src="https://komarev.com/ghpvc/?username=ionik0&style=for-the-badge&color=000000&label=CONTINUES&labelColor=FFFF00" alt="profile views" />
 
 </div>
