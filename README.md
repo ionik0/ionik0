@@ -23,11 +23,11 @@
 
 ### Competitive Programming Stats
 
-[![Leetcode Stats](https://leetcard.jacoblin.cool/ionik_0)](https://leetcode.com/ionik_0)
+[![Leetcode Stats](https://leetcard.jacoblin.cool/ionik_0?ext=heatmap)](https://leetcode.com/ionik_0)
 
 [![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=ionik_0)](https://codeforces.com/profile/ionik_0)
 
-[![Atcoder Profile](https://atcoder-badge.kro.kr?id=Ionik)](https://atcoder.jp/users/Ionik)
+[<img src="https://img.atcoder.jp/assets/atcoder.png" height="20" align="center" />](https://atcoder.jp/users/Ionik) [![Atcoder Profile](https://atcoder-badge.kro.kr?id=Ionik)](https://atcoder.jp/users/Ionik)
 
 </div>
 
