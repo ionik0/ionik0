@@ -21,7 +21,7 @@
 
 <div align="center">
 
-### Competitive Programming Stats
+<!-- Competitive Programming Stats ### --!>
 
 [![Leetcode Stats](https://leetcard.jacoblin.cool/ionik_0?ext=heatmap)](https://leetcode.com/ionik_0)
 
