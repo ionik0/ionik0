@@ -26,10 +26,8 @@
   />
 </picture>
 
-Its all I know👇
 <!-- JacobLinCool -->
-
-![Skills](https://skillicons.dev/icons?i=html,css,javascript,react,vue,typescript,next,nodejs,express,java,postgresql,supabase,github,vscode&perline=3) ![Leetcode Stats](https://leetcard.jacoblin.cool/ionik_0?theme=dark&ext=heatmap&font=Play) <!-- xiaohuohumax -->
+ ![Leetcode Stats](https://leetcard.jacoblin.cool/ionik_0?theme=dark&ext=heatmap&font=Play) <!-- xiaohuohumax -->
 ![Git Animals](https://render.gitanimals.org/lines/ionik0)
 
 # Contact Me :
