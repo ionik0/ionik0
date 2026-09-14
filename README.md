@@ -17,7 +17,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ionik0/ionik0/main/assets/retro-tv-avatar.svg" width="300" alt="ionik0"/>
+<img src="https://raw.githubusercontent.com/ionik0/ionik0/main/assets/retro-camera-avatar.svg" width="380" alt="ionik0"/>
 
 </div>
 
