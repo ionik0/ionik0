@@ -17,8 +17,16 @@
     alt="pacman contribution graph"  
     src="https://raw.githubusercontent.com/ionik0/ionik0/output/pacman-contribution-graph.svg"  
   />  
-</picture>  <!-- JacobLinCool -->   <!-- xiaohuohumax -->
+</picture>  <!-- JacobLinCool --> <!-- xiaohuohumax -->
 
+<div align="center">
+
+### Competitive Programming Stats
+
+[![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=ionik_0)](https://codeforces.com/profile/ionik_0)
+[![Ionik's atcoder stats](https://atcoder-readme-stats.vercel.app/stats/Ionik)](https://atcoder.jp/users/Ionik)
+
+</div>
 
 Contact Me :
 
