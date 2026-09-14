@@ -1,0 +1,43 @@
+name: generate retro camera avatar
+
+on:
+  schedule:
+    - cron: "17 */6 * * *" # every 6 hours
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - scripts/build_avatar.py
+      - scripts/requirements.txt
+      - .github/workflows/avatar.yml
+
+jobs:
+  avatar:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r scripts/requirements.txt
+
+      - name: Build avatar from live pfp + live stats
+        env:
+          GITHUB_USERNAME: ionik0
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/build_avatar.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/retro-camera-avatar.svg
+          git diff --cached --quiet || git commit -m "Update retro avatar [skip ci]"
+          git push
