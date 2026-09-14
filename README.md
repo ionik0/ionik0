@@ -9,9 +9,7 @@
  \___/ \___/\_| \_/\___/\_| \_/\___/
 ```
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=VT323&weight=500&size=26&duration=2200&pause=700&color=39FF14&background=000000&center=true&vCenter=true&width=600&height=40&lines=%3E+INSERT+COIN+TO+CONTINUE...;%3E+LOADING+PLAYER%3A+ionik0_;%3E+CLASS%3A+Competitive+Programmer;%3E+STATUS%3A+Online+and+debugging_)](https://git.io/typing-svg)
-
-<img src="https://img.shields.io/badge/●-000000?style=flat-square&labelColor=FF0000" height="14"/><img src="https://img.shields.io/badge/●-000000?style=flat-square&labelColor=FFB8FF" height="14"/><img src="https://img.shields.io/badge/●-000000?style=flat-square&labelColor=00FFFF" height="14"/><img src="https://img.shields.io/badge/●-000000?style=flat-square&labelColor=FFB852" height="14"/><img src="https://img.shields.io/badge/●-000000?style=flat-square&labelColor=FFFF00" height="14"/>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=VT323&weight=500&size=24&duration=2600&pause=900&color=39FF14&background=000000&center=true&vCenter=true&width=560&height=36&lines=Competitive+programmer;LeetCode+%2B+Codeforces+%2B+AtCoder;Building+things%2C+one+bug+at+a+time)](https://git.io/typing-svg)
 
 </div>
 
@@ -19,18 +17,13 @@
 
 <div align="center">
 
-<img src="https://github.com/ionik0.png" width="140" height="140" style="border:4px solid #39FF14;image-rendering:pixelated;box-shadow:6px 6px 0px #000;" alt="ionik0 avatar"/>
-
-<img src="https://img.shields.io/badge/PLAYER_ONE-ionik0-FFFF00?style=for-the-badge&labelColor=000000" alt="player one"/>
-<img src="https://img.shields.io/badge/LIVES-%E2%99%A5%20%E2%99%A5%20%E2%99%A5-FF0000?style=for-the-badge&labelColor=000000" alt="lives"/>
+<img src="https://raw.githubusercontent.com/ionik0/ionik0/main/assets/retro-tv-avatar.svg" width="300" alt="ionik0"/>
 
 </div>
 
 <br/>
 
-<div align="center">
-<img src="https://img.shields.io/badge/LEVEL_1-CONTRIBUTIONS-FFFF00?style=for-the-badge&labelColor=000000" />
-</div>
+<div align="center"><sub>contributions</sub></div>
 <br/>
 
 <picture>
@@ -49,16 +42,16 @@
 </picture>
 
 <div align="center">
-<sub>🐾 meanwhile, my pet is out grinding commits too</sub>
-<br/>
-<img src="https://render.gitanimals.org/lines/ionik0" alt="gitanimals" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ionik0/ionik0/main/dist/pet.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ionik0/ionik0/main/dist/pet-light.svg" />
+  <img alt="Ginger the cat" src="https://raw.githubusercontent.com/ionik0/ionik0/main/dist/pet.svg" width="480" />
+</picture>
 </div>
 
 <br/>
 
-<div align="center">
-<img src="https://img.shields.io/badge/LEVEL_2-BOSS_STATS-FF0000?style=for-the-badge&labelColor=000000" />
-</div>
+<div align="center"><sub>competitive programming</sub></div>
 <br/>
 
 <div align="center">
@@ -85,9 +78,7 @@
 
 <br/>
 
-<div align="center">
-<img src="https://img.shields.io/badge/EXTRA_LIVES-CONTACT-00FFFF?style=for-the-badge&labelColor=000000" />
-</div>
+<div align="center"><sub>contact</sub></div>
 <br/>
 
 <div align="center">
@@ -95,22 +86,16 @@
 <a href="mailto:npxnikhilkumar@gmail.com"><img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=EA4335" /></a>
 <a href="https://www.linkedin.com/in/nikhil-kumar-124b50362"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=0A66C2" /></a>
 
-<sub>Got a doubt, a bug to squash together, or just want to game? Ping me, I don't bite 😉</sub>
-
 <br/><br/>
 
 <a href="https://github.com/ionik0/ionik0/issues">
   <img src="https://github.com/fnky/fnky/raw/fnky/img/guestbook.gif" alt="Guest book" width="600" />
 </a>
 
-<p>Write something nice in my guest book 📖</p>
+<p><sub>write something in my guest book</sub></p>
 
 <br/>
 
-```
-GAME OVER — INSERT COIN TO CONTINUE
-```
-
-<img src="https://komarev.com/ghpvc/?username=ionik0&style=for-the-badge&color=000000&label=CONTINUES&labelColor=FFFF00" alt="profile views" />
+<img src="https://komarev.com/ghpvc/?username=ionik0&style=flat-square&color=000000&label=views" alt="profile views" />
 
 </div>
