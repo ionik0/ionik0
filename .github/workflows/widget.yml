@@ -1,4 +1,4 @@
-name: generate retro camera avatar
+name: generate retro widget
 
 on:
   schedule:
@@ -8,12 +8,13 @@ on:
     branches:
       - main
     paths:
-      - scripts/build_avatar.py
+      - scripts/build_widget.py
       - scripts/requirements.txt
-      - .github/workflows/avatar.yml
+      - assets/kitten_source.png
+      - .github/workflows/widget.yml
 
 jobs:
-  avatar:
+  widget:
     permissions:
       contents: write
     runs-on: ubuntu-latest
@@ -28,19 +29,19 @@ jobs:
 
       - run: pip install -r scripts/requirements.txt
 
-      - name: Build avatar from live pfp + live stats
+      - name: Build widget from live pfp + live stats + kitten photo
         env:
           GITHUB_USERNAME: ionik0
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/build_avatar.py
+        run: python scripts/build_widget.py
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/retro-camera-avatar.svg
+          git add assets/retro-widget.svg
           git diff --cached --quiet && exit 0
-          git commit -m "Update retro avatar [skip ci]"
+          git commit -m "Update retro widget [skip ci]"
           for i in 1 2 3 4 5; do
             git push && exit 0
             echo "push rejected, rebasing onto origin/main (attempt $i)"

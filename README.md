@@ -17,7 +17,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ionik0/ionik0/main/assets/retro-camera-avatar.svg" width="380" alt="ionik0"/>
+<img src="https://raw.githubusercontent.com/ionik0/ionik0/main/assets/retro-widget.svg" width="760" alt="ionik0"/>
 
 </div>
 
@@ -40,12 +40,6 @@
     src="https://raw.githubusercontent.com/ionik0/ionik0/output/pacman-contribution-graph.svg"
   />
 </picture>
-
-<div align="center">
-<img alt="pet kitten" src="https://raw.githubusercontent.com/ionik0/ionik0/main/assets/kitten-pet.svg" width="480" />
-</div>
-
-<br/>
 
 <div align="center"><sub>competitive programming</sub></div>
 <br/>
