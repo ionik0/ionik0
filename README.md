@@ -29,23 +29,32 @@
 <div align="center"><sub>competitive programming</sub></div>
 <br/>
 
-<div align="center">
-
-[![Leetcode Stats](https://leetcard.jacoblin.cool/ionik_0?theme=dark&ext=heatmap)](https://leetcode.com/ionik_0)
-[![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=ionik_0)](https://codeforces.com/profile/ionik_0)
-
-</div>
-
 <table align="center">
   <tr>
-    <td align="left">
-      <a href="https://atcoder.jp/users/Ionik">
-        <img src="https://img.atcoder.jp/assets/atcoder.png" height="42" align="middle" />
+    <td align="center">
+      <a href="https://leetcode.com/ionik_0">
+        <img src="https://leetcard.jacoblin.cool/ionik_0?theme=dark&ext=heatmap" />
       </a>
     </td>
-    <td align="left">
+    <td align="center">
+      <a href="https://profiles.topcoder.com/ionik0">
+        <img src="https://cp-logo.vercel.app/topcoder/ionik0" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://codeforces.com/profile/ionik_0">
+        <img src="https://codeforces-readme-stats.vercel.app/api/card?username=ionik_0" />
+      </a>
+    </td>
+    <td align="center">
       <a href="https://atcoder.jp/users/Ionik">
-        <img src="https://atcoder-badge.kro.kr?id=Ionik" align="middle" />
+        <img src="https://atcoder-readme-stats.vercel.app/stats/Ionik?theme=darcula&show_history=5&show_icons=true" />
+      </a>
+      <br/>
+      <a href="https://atcoder.jp/users/Ionik">
+        <img src="https://atcoder-badge.kro.kr?id=Ionik" />
       </a>
     </td>
   </tr>
