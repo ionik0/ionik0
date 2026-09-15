@@ -1,18 +1,3 @@
-<div align="center">
-
-```
- _____ _____ _   _ _____ _   _______
-|_   _|  _  | \ | |_   _| | / /  _  |
-  | | | | | |  \| | | | | |/ /| |/' |
-  | | | | | | . ` | | | |    \|  /| |
- _| |_\ \_/ / |\  |_| |_| |\  \ |_/ /
- \___/ \___/\_| \_/\___/\_| \_/\___/
-```
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=VT323&weight=500&size=24&duration=2600&pause=900&color=39FF14&background=000000&center=true&vCenter=true&width=560&height=36&lines=Competitive+programmer;LeetCode+%2B+Codeforces+%2B+AtCoder;Building+things%2C+one+bug+at+a+time)](https://git.io/typing-svg)
-
-</div>
-
 <br/>
 
 <div align="center">
