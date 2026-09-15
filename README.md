@@ -38,7 +38,7 @@
     </td>
     <td align="center">
       <a href="https://profiles.topcoder.com/ionik0">
-        <img src="https://cp-logo.vercel.app/topcoder/ionik0" />
+        <img src="https://img.shields.io/badge/TopCoder-ionik0-29A7DE?style=for-the-badge&logo=topcoder&logoColor=white" />
       </a>
     </td>
   </tr>
@@ -50,10 +50,7 @@
     </td>
     <td align="center">
       <a href="https://atcoder.jp/users/Ionik">
-        <img src="https://atcoder-readme-stats.vercel.app/stats/Ionik?theme=darcula&show_history=5&show_icons=true" />
-      </a>
-      <br/>
-      <a href="https://atcoder.jp/users/Ionik">
+        <img src="https://img.atcoder.jp/assets/atcoder.png" height="42" /><br/>
         <img src="https://atcoder-badge.kro.kr?id=Ionik" />
       </a>
     </td>
