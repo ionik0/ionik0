@@ -7,9 +7,11 @@ jobs:
     steps:
       - name: v5 members
         run: |
-          echo "=== v5/members/ionik0 ==="
-          curl -sS "https://api.topcoder.com/v5/members/ionik0" | python3 -m json.tool || true
-          echo "=== v5/members?handle=ionik0 ==="
-          curl -sS "https://api.topcoder.com/v5/members?handle=ionik0" | python3 -m json.tool || true
-          echo "=== v3/members/ionik0/stats ==="
-          curl -sS "https://api.topcoder.com/v3/members/ionik0/stats" | python3 -m json.tool || true
+          for h in ionik0 Ionik0 IONIK0 ionik_0 Ionik; do
+            echo "=== v5/members/$h ==="
+            curl -sS -w "\nHTTP:%{http_code}\n" "https://api.topcoder.com/v5/members/$h"
+          done
+          echo "=== profile page HTML grep ==="
+          curl -sSL "https://profiles.topcoder.com/ionik0" | grep -io 'handle[^,}]*' | head -20 || true
+          echo "=== v5/members?handleLower=ionik0 ==="
+          curl -sS -w "\nHTTP:%{http_code}\n" "https://api.topcoder.com/v5/members?handleLower=ionik0"
