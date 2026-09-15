@@ -42,11 +42,7 @@
 </picture>
 
 <div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ionik0/ionik0/main/dist/pet.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ionik0/ionik0/main/dist/pet-light.svg" />
-  <img alt="Ginger the cat" src="https://raw.githubusercontent.com/ionik0/ionik0/main/dist/pet.svg" width="480" />
-</picture>
+<img alt="pet kitten" src="https://raw.githubusercontent.com/ionik0/ionik0/main/assets/kitten-pet.svg" width="480" />
 </div>
 
 <br/>
