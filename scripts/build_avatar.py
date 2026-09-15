@@ -104,8 +104,8 @@ def build_svg(photo: Image.Image, contributions: int, streak: int, followers: in
     photo.save(buf, format="PNG")
     b64 = base64.b64encode(buf.getvalue()).decode()
 
-    W, H = 380, 400
-    vx, vy, vw, vh = 60, 54, 260, 260
+    W, H = 380, 340
+    vx, vy, vw, vh = 20, 54, 340, 220
     mono = "font-family:'Courier New',monospace"
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
@@ -150,11 +150,7 @@ def build_svg(photo: Image.Image, contributions: int, streak: int, followers: in
   </g>
   <rect x="{vx}" y="{vy}" width="{vw}" height="{vh}" fill="none" stroke="#000" stroke-width="1"/>
 
-  <rect x="{vx-40}" y="304" width="{vw+80}" height="10" fill="#e8e6e0" stroke="#808080" stroke-width="1"/>
-  <rect x="{vx-40}" y="304" width="{int((vw+80)*0.32)}" height="10" fill="#3a6ea5"/>
-  <rect x="{vx-40+int((vw+80)*0.32)-3}" y="302" width="6" height="14" fill="#c8c4bc" stroke="#404040" stroke-width="1"/>
-
-  <g transform="translate({W/2-54},324)">
+  <g transform="translate({W/2-54},{vy+vh+14})">
     <rect x="0" y="0" width="30" height="24" fill="#c8c4bc" stroke="#404040" stroke-width="1"/>
     <polygon points="20,4 20,20 8,12" fill="#000"/>
     <rect x="6" y="4" width="3" height="16" fill="#000"/>
