@@ -1,0 +1,36 @@
+name: debug pacman contributions
+on:
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: query exact same GraphQL as pacman action
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          cat > q.json << 'EOF'
+          {"query":"query ($login: String!) { user(login: $login) { contributionsCollection { contributionCalendar { weeks { contributionDays { date contributionCount color contributionLevel } } } } } }","variables":{"login":"ionik0"}}
+          EOF
+          curl -sS -X POST https://api.github.com/graphql \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d @q.json -o resp.json
+          echo "=== errors (if any) ==="
+          python3 -c "import json; d=json.load(open('resp.json')); print(json.dumps(d.get('errors'), indent=2))"
+          echo "=== last 14 days ==="
+          python3 -c "
+          import json
+          d = json.load(open('resp.json'))
+          weeks = d.get('data',{}).get('user',{}).get('contributionsCollection',{}).get('contributionCalendar',{}).get('weeks')
+          if weeks is None:
+              print('weeks is None! full response:')
+              print(json.dumps(d)[:2000])
+          else:
+              days = [dd for w in weeks for dd in w['contributionDays']]
+              print('total days:', len(days))
+              for dd in days[-14:]:
+                  print(dd)
+              nonzero = [dd for dd in days if dd['contributionCount'] > 0]
+              print('nonzero days:', len(nonzero))
+          "
