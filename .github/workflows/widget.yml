@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - scripts/build_widget.py
+      - scripts/build_codechef.py
       - scripts/requirements.txt
       - assets/kitten_source.png
       - .github/workflows/widget.yml
@@ -35,11 +36,16 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/build_widget.py
 
+      - name: Build CodeChef card from live profile page
+        env:
+          CODECHEF_USERNAME: ionik_0
+        run: python scripts/build_codechef.py
+
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/retro-widget.svg
+          git add assets/retro-widget.svg assets/codechef-card.svg
           git diff --cached --quiet && exit 0
           git commit -m "Update retro widget [skip ci]"
           for i in 1 2 3 4 5; do
