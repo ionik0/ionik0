@@ -37,8 +37,8 @@
       </a>
     </td>
     <td align="center">
-      <a href="https://profiles.topcoder.com/ionik0">
-        <img src="https://img.shields.io/badge/TopCoder-ionik0-29A7DE?style=for-the-badge&logo=topcoder&logoColor=white" />
+      <a href="https://www.codechef.com/users/ionik_0">
+        <img src="https://img.shields.io/badge/CodeChef-ionik__0-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
       </a>
     </td>
   </tr>
