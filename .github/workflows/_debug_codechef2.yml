@@ -9,20 +9,21 @@ jobs:
         run: |
           curl -sS -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36" \
             -m 30 "https://www.codechef.com/users/ionik_0" -o profile.html -w "HTTP:%{http_code} SIZE:%{size_download}\n"
-          python3 -c "
-import re
-html = open('profile.html', encoding='utf-8', errors='replace').read()
+          cat > dump.py << 'PYEOF'
+          import re
+          html = open('profile.html', encoding='utf-8', errors='replace').read()
 
-def dump(label, needle, before=60, after=1400):
-    i = html.find(needle)
-    if i == -1:
-        print(f'{label}: NOT FOUND')
-        return
-    print(f'--- {label} ---')
-    print(html[max(0,i-before):i+after])
-    print()
+          def dump(label, needle, before=60, after=1400):
+              i = html.find(needle)
+              if i == -1:
+                  print(f'{label}: NOT FOUND')
+                  return
+              print(f'--- {label} ---')
+              print(html[max(0,i-before):i+after])
+              print()
 
-dump('rating-header', 'rating-header text-center')
-dump('problems-solved', 'rating-data-section problems-solved')
-dump('country', 'Country', before=80, after=200)
-"
+          dump('rating-header', 'rating-header text-center')
+          dump('problems-solved', 'rating-data-section problems-solved')
+          dump('country', 'Country', before=80, after=200)
+          PYEOF
+          python3 dump.py
