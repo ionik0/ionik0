@@ -9,17 +9,11 @@ jobs:
         run: |
           curl -sS -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36" \
             -m 30 "https://www.codechef.com/users/ionik_0" -o profile.html -w "HTTP:%{http_code} SIZE:%{size_download}\n"
-          echo "=== star context ==="
-          grep -o '.\{60\}star.\{60\}' profile.html | head -10
-          echo "=== Global Rank context ==="
-          grep -o '.\{80\}Global Rank.\{120\}' profile.html | head -5
-          echo "=== Country Rank context ==="
-          grep -o '.\{80\}Country Rank.\{120\}' profile.html | head -5
-          echo "=== rating class contexts (any class containing 'rating') ==="
-          grep -oE 'class="[^"]*rating[^"]*"[^>]{0,120}' profile.html | sort -u | head -20
-          echo "=== header div near top of profile section ==="
-          grep -o '.\{40\}user-details-container.\{300\}' profile.html | head -3
-          echo "=== fully solved / problems ==="
-          grep -o '.\{60\}[Ff]ully [Ss]olved.\{200\}' profile.html | head -5
-          echo "=== FILE SIZE ==="
-          wc -c profile.html
+          echo "=== rating-header block (contains rating-number + rating-ranks + rating-star) ==="
+          grep -o "rating-header text-center.\{1200\}" profile.html | head -1
+          echo
+          echo "=== problems-solved block ==="
+          grep -o "rating-data-section problems-solved.\{1500\}" profile.html | head -1
+          echo
+          echo "=== country flag / name near rating ==="
+          grep -o '.\{60\}Country.\{150\}' profile.html | head -5
