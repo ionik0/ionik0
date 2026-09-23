@@ -1,0 +1,15 @@
+name: debug codechef service
+on:
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: check codechef-readme-stats
+        run: |
+          echo "=== codechef-readme-stats.onrender.com ==="
+          curl -sS -m 60 -o out.svg -w "HTTP:%{http_code} SIZE:%{size_download}\n" "https://codechef-readme-stats.onrender.com/ionik_0?v=1" || echo "FAILED"
+          head -c 300 out.svg
+          echo
+          echo "=== cp-logo.vercel.app/codechef (known-fragile host, sanity check) ==="
+          curl -sS -m 20 -o out2.svg -w "HTTP:%{http_code} SIZE:%{size_download}\n" "https://cp-logo.vercel.app/codechef/ionik_0" || echo "FAILED"
