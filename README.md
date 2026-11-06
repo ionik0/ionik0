@@ -26,6 +26,14 @@
   />
 </picture>
 
+<div align="center">
+
+<img src="koi/koi.gif" width="256" alt="My koi, redrawn every night from the day's activity" />
+
+</div>
+
+<br/>
+
 <div align="center"><sub>competitive programming</sub></div>
 <br/>
 
